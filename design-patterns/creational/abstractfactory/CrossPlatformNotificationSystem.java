@@ -1,5 +1,8 @@
 package creational.abstractfactory;
 
+/**
+ *
+ */
 interface AlertNotification{
     void alert(String message);
 }
