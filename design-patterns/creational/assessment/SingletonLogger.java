@@ -15,15 +15,20 @@ public class SingletonLogger {
     private SingletonLogger() {}
 
     public static class SingletonLoggerHolder {
-        private static final SingletonLoggerHolder instance = new SingletonLoggerHolder();
+        private static final SingletonLogger instance = new SingletonLogger();
 
     }
 
-    public static SingletonLoggerHolder getInstance() {
+    public static SingletonLogger getInstance() {
         return SingletonLoggerHolder.instance;
     }
 
     public void log(String message) {
         System.out.println(message);
+    }
+
+    public static void main(String[] args) {
+        SingletonLogger log = SingletonLogger.getInstance();
+        log.log("Hello World");
     }
 }
