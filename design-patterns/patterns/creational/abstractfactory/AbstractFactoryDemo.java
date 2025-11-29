@@ -1,4 +1,4 @@
-package creational.abstractfactory;
+package patterns.creational.abstractfactory;
 
 // Abstract Products
 interface Button {

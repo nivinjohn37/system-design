@@ -1,4 +1,4 @@
-package creational.assessment;
+package patterns.structural.adapter;
 
 import java.io.FileInputStream;
 import java.io.IOException;

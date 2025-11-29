@@ -1,9 +1,6 @@
-package creational.assessment;
+package patterns.creational.assessment;
 
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.Set;
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;

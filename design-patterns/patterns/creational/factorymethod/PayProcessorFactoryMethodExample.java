@@ -1,4 +1,4 @@
-package creational.factorymethod;
+package patterns.creational.factorymethod;
 
 public class PayProcessorFactoryMethodExample {
     interface PaymentStrategy {

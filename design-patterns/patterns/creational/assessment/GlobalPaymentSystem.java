@@ -1,4 +1,4 @@
-package creational.assessment;
+package patterns.creational.assessment;
 
 public class GlobalPaymentSystem {
 

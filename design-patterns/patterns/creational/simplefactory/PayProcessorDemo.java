@@ -1,4 +1,4 @@
-package creational.simplefactory;
+package patterns.creational.simplefactory;
 
 
 import java.util.Optional;
